@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Solaria Oceanfront Estate — Monterey Horizon</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#C5A880", // Champagne gold accent
+            "primary-dark": "#A88B63",
+            "background-light": "#FBFBFA",
+            "background-dark": "#0B0C0E",
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+          }
+        },
+      },
+    };
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      vertical-align: middle;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 4px;
+      width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #C5A880;
+      border-radius: 9999px;
+    }
+    .glass-nav {
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-neutral-800 dark:text-neutral-100 font-sans antialiased transition-colors duration-300 selection:bg-primary selection:text-white">
+<header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 glass-nav border-b border-white/10 bg-black/30 dark:bg-black/40">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<a class="flex flex-col group" href="#">
+<span class="font-serif text-2xl tracking-[0.22em] text-white uppercase font-light">Solaria</span>
+<span class="text-[9px] tracking-[0.35em] text-primary uppercase font-medium">Monterey Horizon</span>
+</a>
+<nav class="hidden lg:flex items-center space-x-10 text-xs uppercase tracking-[0.2em] font-medium text-neutral-200">
+<a class="hover:text-primary transition-colors" href="#about">Concept</a>
+<a class="hover:text-primary transition-colors" href="#specifications">Specifications</a>
+<a class="hover:text-primary transition-colors" href="#highlights">Highlights</a>
+<a class="hover:text-primary transition-colors" href="#gallery">Interior Gallery</a>
+<a class="hover:text-primary transition-colors" href="#walkthrough">Walkthrough</a>
+</nav>
+<div class="flex items-center space-x-4">
+<button aria-label="Toggle Theme" class="w-10 h-10 rounded-full border border-white/20 text-white flex items-center justify-center hover:border-primary hover:text-primary transition-all" id="themeToggle">
+<span class="material-symbols-outlined text-[18px]" id="themeIcon">dark_mode</span>
+</button>
+<a class="hidden sm:inline-flex items-center space-x-2 px-5 py-2.5 rounded-full text-xs font-semibold tracking-widest uppercase bg-primary text-black hover:bg-white transition-all shadow-lg hover:shadow-primary/20" href="#acquisition">
+<span>Private Showing</span>
+<span class="material-symbols-outlined text-sm">north_east</span>
+</a>
+</div>
+</div>
+</header>
+<section class="relative min-h-screen flex items-end pb-16 pt-32 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Solaria Oceanfront Estate Cliffside Architectural Villa at Sunset" class="w-full h-full object-cover object-center scale-105 animate-[pulse_10s_ease-in-out_infinite]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjHW_7smoi31NGOApgeat75-oZDlVTop0qF7e_iWXnAhzKNH3hnMM3N7ZzhzC9boVy_bNGTQ_8p4yJ9IeuZXvxFHK-E-oEeoZAXRYSdaah2hB8HsfNbNpg1PiqxvxpXd3dYTxathar8WnYMqWAyInq9jbfPbUmlFXsctp53lw3OBQThgmPdnHAYpgo8XfV617f6mZAYVGRysQL-t7YA_1KwFwCiOB4_j8alDlHDqI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/95 via-black/45 to-black/30"></div>
+<div class="absolute inset-0 bg-radial-at-c from-transparent via-transparent to-black/60 pointer-events-none"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-6 w-full">
+<div class="max-w-3xl space-y-6">
+<div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full border border-primary/40 bg-black/40 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="text-xs uppercase tracking-[0.28em] text-neutral-200 font-medium">Exclusively Listed • Monterey Horizon</span>
+</div>
+<h1 class="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white font-light leading-[1.05] tracking-tight">
+          Where Luxury <br/>
+<span class="italic font-normal text-primary">Meets the Ocean.</span>
+</h1>
+<p class="text-neutral-300 text-base sm:text-lg max-w-2xl font-light leading-relaxed">
+          An extraordinary monolithic oceanfront sanctuary perched above the Pacific. Seamlessly unifying cantilevered glass architecture, infinity horizons, and timeless travertine finishes.
+        </p>
+<div class="pt-4 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+<a class="px-8 py-4 rounded-full bg-primary text-black font-semibold text-xs tracking-widest uppercase hover:bg-white transition-all duration-300 shadow-xl flex items-center space-x-2" href="#about">
+<span>Explore the Property</span>
+<span class="material-symbols-outlined text-base">arrow_downward</span>
+</a>
+<a class="px-7 py-4 rounded-full bg-black/40 hover:bg-black/60 backdrop-blur-md border border-white/20 hover:border-primary text-white font-medium text-xs tracking-widest uppercase transition-all duration-300 flex items-center space-x-2" href="#acquisition">
+<span class="material-symbols-outlined text-base text-primary">calendar_month</span>
+<span>Book a Private Tour</span>
+</a>
+</div>
+<div class="pt-6 border-t border-white/15 grid grid-cols-2 sm:grid-cols-4 gap-4 text-white">
+<div>
+<div class="text-[10px] tracking-widest uppercase text-neutral-400">Accommodations</div>
+<div class="text-lg font-serif tracking-wide text-neutral-100">6 Grand Suites</div>
+</div>
+<div>
+<div class="text-[10px] tracking-widest uppercase text-neutral-400">Baths</div>
+<div class="text-lg font-serif tracking-wide text-neutral-100">9 Spa Baths</div>
+</div>
+<div>
+<div class="text-[10px] tracking-widest uppercase text-neutral-400">Living Space</div>
+<div class="text-lg font-serif tracking-wide text-neutral-100">14,200 SQ FT</div>
+</div>
+<div>
+<div class="text-[10px] tracking-widest uppercase text-neutral-400">Estate Grounds</div>
+<div class="text-lg font-serif tracking-wide text-neutral-100">1.8 Coastal Acres</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-28 px-6 bg-background-light dark:bg-background-dark border-b border-neutral-200 dark:border-neutral-800" id="about">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<div class="lg:col-span-6 space-y-8">
+<div class="space-y-3">
+<span class="text-xs uppercase tracking-[0.3em] text-primary font-semibold">The Architectural Philosophy</span>
+<h2 class="font-serif text-4xl sm:text-5xl text-neutral-900 dark:text-neutral-100 font-light leading-tight">
+              Monolithic purity framed by the endless rhythm of the Pacific.
+            </h2>
+</div>
+<p class="text-neutral-600 dark:text-neutral-400 font-light leading-relaxed text-base">
+            Conceived as an organic extension of the craggy Monterey bluffs, Solaria embodies an unprecedented dialogue between massive hand-chiseled Roman travertine, patinated bronze, and ultra-clear structural glass curtain walls. 
+          </p>
+<p class="text-neutral-600 dark:text-neutral-400 font-light leading-relaxed text-base">
+            Engineered with audacious cantilevered terraces, every salon is orientated toward solar geometry, catching the pristine coastal dawn and the legendary golden twilight while preserving total acoustic stillness inside.
+          </p>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-6 pt-4 border-t border-neutral-200 dark:border-neutral-800">
+<div>
+<span class="block font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-medium">14,200</span>
+<span class="text-xs tracking-wider uppercase text-neutral-500 dark:text-neutral-400 mt-1 block">Interior SF</span>
+</div>
+<div>
+<span class="block font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-medium">220 FT</span>
+<span class="text-xs tracking-wider uppercase text-neutral-500 dark:text-neutral-400 mt-1 block">Ocean Frontage</span>
+</div>
+<div>
+<span class="block font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-medium">75 FT</span>
+<span class="text-xs tracking-wider uppercase text-neutral-500 dark:text-neutral-400 mt-1 block">Horizon Pool</span>
+</div>
+<div>
+<span class="block font-serif text-3xl sm:text-4xl text-neutral-900 dark:text-white font-medium">8-Car</span>
+<span class="text-xs tracking-wider uppercase text-neutral-500 dark:text-neutral-400 mt-1 block">Gallery Garage</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-2xl group border border-neutral-300 dark:border-neutral-800">
+<img alt="Solaria Double-Height Ocean Salon Interior" class="w-full h-[520px] object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-OkoT3D66Q7oMXHaXmCYGQJmX9zw6ncwQJik5KuoWG1LBYamebcJoVeuevZXaXPDN4vzPKAslTQLOB6bCgd0iPz1iDi72HQHDv3yNjSW_F4GCnqwqb5xukdmC4jkwDNUPAz6NPNy8SYUB5Mot6-mEXufaBUhGnSRRY7rTfuTQhjOZ_zvCJDty_P_iaUmmOMjO2N4efmNR18I8iLxBGRdH3XdAa6Fyy8BXYWsZuJc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute top-6 left-6">
+<span class="px-4 py-2 rounded-full text-xs font-medium uppercase tracking-widest bg-black/60 text-white backdrop-blur-md border border-white/20">
+                Double-Height Ocean Salon
+              </span>
+</div>
+<div class="absolute bottom-6 left-6 right-6 flex items-center justify-between text-white">
+<div>
+<p class="font-serif text-xl">Main Residence • Level 02</p>
+<p class="text-xs text-neutral-300 font-light mt-0.5">Floor-to-ceiling acoustic glass facing Monterey Bay</p>
+</div>
+<button class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center hover:bg-primary hover:text-black transition-colors" onclick="openLightbox('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1800&amp;q=90', 'Grand Living Salon &amp; Fireplace Pavilion', '24-foot soaring glass facades looking over the Pacific bluffs with bespoke Italian stone fireplaces.')">
+<span class="material-symbols-outlined text-lg">zoom_in</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-28 px-6 bg-neutral-100/60 dark:bg-neutral-950/60 border-b border-neutral-200 dark:border-neutral-800" id="highlights">
+<div class="max-w-7xl mx-auto space-y-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div class="max-w-2xl">
+<span class="text-xs uppercase tracking-[0.3em] text-primary font-semibold">Exemplary Craftsmanship</span>
+<h2 class="font-serif text-4xl sm:text-5xl text-neutral-900 dark:text-neutral-100 font-light mt-2">
+            Curated Architectural Highlights
+          </h2>
+</div>
+<p class="text-neutral-600 dark:text-neutral-400 text-sm max-w-md font-light">
+          Every dimension of Solaria was custom engineered to offer an uncompromising balance of private coastal refuge and grand-scale entertaining.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group p-8 rounded-xl bg-background-light dark:bg-neutral-900/90 border border-neutral-200 dark:border-neutral-800 hover:border-primary/60 dark:hover:border-primary/60 transition-all duration-300 hover:-translate-y-1.5 shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-black transition-colors">
+<span class="material-symbols-outlined text-2xl">apartment</span>
+</div>
+<h3 class="font-serif text-2xl text-neutral-900 dark:text-white font-medium mb-3">Cantilevered Architecture</h3>
+<p class="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed font-light">
+            Structural glass, monolithic exposed travertine, and seismic oceanfront engineering creating weightless spans that hover across the sea.
+          </p>
+</div>
+<div class="group p-8 rounded-xl bg-background-light dark:bg-neutral-900/90 border border-neutral-200 dark:border-neutral-800 hover:border-primary/60 dark:hover:border-primary/60 transition-all duration-300 hover:-translate-y-1.5 shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-black transition-colors">
+<span class="material-symbols-outlined text-2xl">panorama</span>
+</div>
+<h3 class="font-serif text-2xl text-neutral-900 dark:text-white font-medium mb-3">Direct Oceanfront Horizon</h3>
+<p class="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed font-light">
+            Unobstructed 270-degree panoramic ocean views with private cliffside stone pathway descending directly to secluded shoreline access.
+          </p>
+</div>
+<div class="group p-8 rounded-xl bg-background-light dark:bg-neutral-900/90 border border-neutral-200 dark:border-neutral-800 hover:border-primary/60 dark:hover:border-primary/60 transition-all duration-300 hover:-translate-y-1.5 shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-black transition-colors">
+<span class="material-symbols-outlined text-2xl">pool</span>
+</div>
+<h3 class="font-serif text-2xl text-neutral-900 dark:text-white font-medium mb-3">Olympic Horizon Infinity Pool</h3>
+<p class="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed font-light">
+            75-foot heated saltwater edge merging seamlessly into the Pacific horizon, paired with sunken fire pits and limestone sunbathing deck.
+          </p>
+</div>
+<div class="group p-8 rounded-xl bg-background-light dark:bg-neutral-900/90 border border-neutral-200 dark:border-neutral-800 hover:border-primary/60 dark:hover:border-primary/60 transition-all duration-300 hover:-translate-y-1.5 shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-black transition-colors">
+<span class="material-symbols-outlined text-2xl">park</span>
+</div>
+<h3 class="font-serif text-2xl text-neutral-900 dark:text-white font-medium mb-3">Curated Botanical Oasis</h3>
+<p class="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed font-light">
+            Sculptural centuries-old Japanese maples, specimen olive groves, and coastal terraced succulents curated by master landscape architects.
+          </p>
+</div>
+<div class="group p-8 rounded-xl bg-background-light dark:bg-neutral-900/90 border border-neutral-200 dark:border-neutral-800 hover:border-primary/60 dark:hover:border-primary/60 transition-all duration-300 hover:-translate-y-1.5 shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-black transition-colors">
+<span class="material-symbols-outlined text-2xl">view_quilt</span>
+</div>
+<h3 class="font-serif text-2xl text-neutral-900 dark:text-white font-medium mb-3">Double-Height Living Salons</h3>
+<p class="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed font-light">
+            24-foot soaring glass facades with Italian bespoke furnishing, motorized shading, and integrated acoustic architectural stone.
+          </p>
+</div>
+<div class="group p-8 rounded-xl bg-background-light dark:bg-neutral-900/90 border border-neutral-200 dark:border-neutral-800 hover:border-primary/60 dark:hover:border-primary/60 transition-all duration-300 hover:-translate-y-1.5 shadow-sm hover:shadow-xl">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-black transition-colors">
+<span class="material-symbols-outlined text-2xl">countertops</span>
+</div>
+<h3 class="font-serif text-2xl text-neutral-900 dark:text-white font-medium mb-3">Epicurean Chef Pavilion</h3>
+<p class="text-neutral-600 dark:text-neutral-400 text-sm leading-relaxed font-light">
+            Book-matched Calacatta marble waterfall island, fluted oak custom millwork, auxiliary butler prep pantry, and Gaggenau 400 series suite.
+          </p>
+</div>
+</div>
+<div class="rounded-2xl p-8 bg-neutral-900 text-white border border-neutral-800 shadow-xl">
+<div class="text-xs uppercase tracking-[0.25em] text-primary mb-6 font-semibold">Master Estate Specifications</div>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 divide-y lg:divide-y-0 lg:divide-x divide-neutral-800">
+<div class="pt-4 lg:pt-0 lg:px-4 first:pl-0">
+<p class="text-neutral-400 text-xs uppercase tracking-wider">Bedrooms</p>
+<p class="font-serif text-2xl text-white mt-1">6 Grand Suites</p>
+</div>
+<div class="pt-4 lg:pt-0 lg:px-4">
+<p class="text-neutral-400 text-xs uppercase tracking-wider">Bathrooms</p>
+<p class="font-serif text-2xl text-white mt-1">9 Spa Baths</p>
+</div>
+<div class="pt-4 lg:pt-0 lg:px-4">
+<p class="text-neutral-400 text-xs uppercase tracking-wider">Interior</p>
+<p class="font-serif text-2xl text-white mt-1">14,200 SF</p>
+</div>
+<div class="pt-4 lg:pt-0 lg:px-4">
+<p class="text-neutral-400 text-xs uppercase tracking-wider">Lot Size</p>
+<p class="font-serif text-2xl text-white mt-1">1.82 Acres</p>
+</div>
+<div class="pt-4 lg:pt-0 lg:px-4">
+<p class="text-neutral-400 text-xs uppercase tracking-wider">Wine Cellar</p>
+<p class="font-serif text-2xl text-white mt-1">1,500 Bottles</p>
+</div>
+<div class="pt-4 lg:pt-0 lg:px-4">
+<p class="text-neutral-400 text-xs uppercase tracking-wider">Wellness</p>
+<p class="font-serif text-2xl text-white mt-1">Spa &amp; Sauna</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-28 px-6 bg-background-light dark:bg-background-dark border-b border-neutral-200 dark:border-neutral-800" id="gallery">
+<div class="max-w-7xl mx-auto space-y-12">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<span class="text-xs uppercase tracking-[0.3em] text-primary font-semibold">Visual Anthology</span>
+<h2 class="font-serif text-4xl sm:text-5xl text-neutral-900 dark:text-neutral-100 font-light mt-2">
+            Curated Living Spaces
+          </h2>
+</div>
+<div class="flex flex-wrap gap-2 text-xs font-medium uppercase tracking-wider" id="galleryFilters">
+<button class="filter-btn px-4 py-2 rounded-full border border-primary bg-primary text-black transition-all" data-filter="all">All Spaces</button>
+<button class="filter-btn px-4 py-2 rounded-full border border-neutral-300 dark:border-neutral-700 hover:border-primary text-neutral-600 dark:text-neutral-300 transition-all" data-filter="living">Living &amp; Salons</button>
+<button class="filter-btn px-4 py-2 rounded-full border border-neutral-300 dark:border-neutral-700 hover:border-primary text-neutral-600 dark:text-neutral-300 transition-all" data-filter="suites">Suites</button>
+<button class="filter-btn px-4 py-2 rounded-full border border-neutral-300 dark:border-neutral-700 hover:border-primary text-neutral-600 dark:text-neutral-300 transition-all" data-filter="kitchen">Culinary</button>
+<button class="filter-btn px-4 py-2 rounded-full border border-neutral-300 dark:border-neutral-700 hover:border-primary text-neutral-600 dark:text-neutral-300 transition-all" data-filter="wellness">Wellness &amp; Spa</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6" id="galleryGrid">
+<div class="gallery-item living lg:col-span-8 group relative rounded-2xl overflow-hidden h-[420px] cursor-pointer shadow-lg" onclick="openLightbox('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&amp;fit=crop&amp;w=1800&amp;q=90', 'Grand Living Salon &amp; Fireplace Pavilion', '24-foot soaring glass facades looking over the Pacific bluffs with bespoke Italian stone fireplaces.')">
+<img alt="Grand Living Salon and Fireplace Pavilion" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGe7FaEABXVAFPb0RY5IYiPnPgzRMo5IojVGWqs0ZgIIHUbCjxwlQVWzNjxN_GBROU5_T6_EIiF9I-xCVRECe6b5_tjmBTdOrfd6L-HVCPug61UJbu35wezMC_S2G7hyVGQkgVhFLIG-U0R0sAYWAfIbUWnPvsQR1OL0-tmb2H6tuMX-7E_Tei84CX0tZp3GeBVF9ho1u1mWO3MEfhcwZKfGFPx_S7SedVVTTTrF8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex justify-between items-end text-white">
+<div>
+<span class="text-xs uppercase tracking-widest text-primary font-semibold">Living &amp; Salons</span>
+<h3 class="font-serif text-2xl sm:text-3xl mt-1">Grand Living Salon &amp; Fireplace Pavilion</h3>
+<p class="text-xs text-neutral-300 font-light mt-1 max-w-md hidden sm:block">Travertine slab fireplace with custom acoustic timber ceilings and frameless glass corner.</p>
+</div>
+<div class="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-all">
+<span class="material-symbols-outlined">fullscreen</span>
+</div>
+</div>
+</div>
+<div class="gallery-item suites lg:col-span-4 group relative rounded-2xl overflow-hidden h-[420px] cursor-pointer shadow-lg" onclick="openLightbox('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&amp;fit=crop&amp;w=1800&amp;q=90', 'Master Oceanfront Suite with Wrap-Around Terrace', 'Private primary wing floating above the waves with panoramic sunset vistas.')">
+<img alt="Master Oceanfront Suite with Wrap-Around Terrace" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4gwo6atfYMNhsRv6rZS6D86F3jnj4Zasiow4NMBTbHvqOOtIAh8s83-8pb55OgqWoW9PNSPzPKoa_Tnlv--lM6I8YRzHQlqXr626mqu_Dz8Hqm3HiOYsl8gspcXFGmELa_35JWT5EGSkg4XfEUl95amTeWgkeKuHtTHg-NtM0LGTv9Fd7BIXFWZcSfKBJ_EYA8oHScdiU9o2L22zDZzGQ_b2vNGR3Iu6UozokNRc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex justify-between items-end text-white">
+<div>
+<span class="text-xs uppercase tracking-widest text-primary font-semibold">Primary Suites</span>
+<h3 class="font-serif text-2xl mt-1">Master Oceanfront Suite</h3>
+</div>
+<div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-all">
+<span class="material-symbols-outlined text-sm">fullscreen</span>
+</div>
+</div>
+</div>
+<div class="gallery-item kitchen lg:col-span-4 group relative rounded-2xl overflow-hidden h-[400px] cursor-pointer shadow-lg" onclick="openLightbox('https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&amp;fit=crop&amp;w=1800&amp;q=90', 'Minimalist Calacatta Marble Culinary Suite', 'Monolithic stone waterfall island paired with integrated Gaggenau appliances.')">
+<img alt="Minimalist Calacatta Marble Culinary Suite" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNILiEHnwrKt_V3RBI_ScJkjQddub_YpcFUfpYS1pT3GS2LHRXALKUvNk39QLo-8-Azn5316OYe3XZt5_z-CAFnK5wxBuEO8Z9yNzLC0UxdhNsAEyX-fzEbX7HMTQLa-1LYQ99-y9-LFInNp6_TOsY3SiNP68gj5JCX-6kdIXx7CJ59xc0VQvekU-be5jgENmzDOVl0jyeFCHdcVi2kiZKjGeMqlcZ-OVZHdta0cI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex justify-between items-end text-white">
+<div>
+<span class="text-xs uppercase tracking-widest text-primary font-semibold">Culinary</span>
+<h3 class="font-serif text-2xl mt-1">Calacatta Chef Suite</h3>
+</div>
+<div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-all">
+<span class="material-symbols-outlined text-sm">fullscreen</span>
+</div>
+</div>
+</div>
+<div class="gallery-item wellness lg:col-span-4 group relative rounded-2xl overflow-hidden h-[400px] cursor-pointer shadow-lg" onclick="openLightbox('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&amp;fit=crop&amp;w=1800&amp;q=90', 'Spa-Inspired Master Bath with Monolithic Stone Soaking Tub', 'Freestanding carved granite soaking tub overlooking the Pacific coast.')">
+<img alt="Spa-Inspired Master Bath with Monolithic Stone Soaking Tub" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCm71L7dYDQ3jJZxJJvo3SuThkF63jr5NDkVgPraGJi4zKNeUIEowmfP2OANlEyrIiEPYED_kK3N8BBvwuOlSPw4t963sM_GM7tIu8yqK07TPIpQc0IQZ9i_ig1UbMUieDuwOkBOvgO9goaKsI7SaRwBFIbFv9Ae34KWJUFx5ezJtwZ6MFWKxzAs9xikgXpu8lhiqi_tfEje73ree6UVSBe5LU3hrAENaDGZ0eVOlc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex justify-between items-end text-white">
+<div>
+<span class="text-xs uppercase tracking-widest text-primary font-semibold">Wellness &amp; Spa</span>
+<h3 class="font-serif text-2xl mt-1">Monolithic Soaking Bath</h3>
+</div>
+<div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-all">
+<span class="material-symbols-outlined text-sm">fullscreen</span>
+</div>
+</div>
+</div>
+<div class="gallery-item living lg:col-span-4 group relative rounded-2xl overflow-hidden h-[400px] cursor-pointer shadow-lg" onclick="openLightbox('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&amp;fit=crop&amp;w=2400&amp;q=90', 'Exterior Sunset Vista &amp; Cascading Terraces', 'The iconic multi-tiered cliffside silhouette catching golden hour reflection.')">
+<img alt="Exterior Sunset Vista and Cascading Terraces" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA98bXLVLzCkAyMwiFOc87cKs39tbzoUZlp6IeCFmCPZLC4eP4bMFxqYzaOfEl5u8gwOOXO3NEQvxyX5G7B8piglUrCKap3xDuTtaJJ6vO6N_dk0EIEssR-dtsZqcymyeCugmpXEHGtGunTV_e418RpHplYrF-jXr0Pwu8uwK7LVOKbkAgL-2fMpWR-n4w0rzNPlnsbTfp1pPDxwtiQJ-sPxKunympmim3N3H0x77o"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex justify-between items-end text-white">
+<div>
+<span class="text-xs uppercase tracking-widest text-primary font-semibold">Architecture</span>
+<h3 class="font-serif text-2xl mt-1">Sunset Cascading Terraces</h3>
+</div>
+<div class="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center group-hover:bg-primary group-hover:text-black transition-all">
+<span class="material-symbols-outlined text-sm">fullscreen</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-28 px-6 bg-neutral-900 text-white relative overflow-hidden" id="walkthrough">
+<div class="absolute -top-40 -right-40 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto space-y-12 relative z-10">
+<div class="max-w-2xl">
+<span class="text-xs uppercase tracking-[0.3em] text-primary font-semibold">Sequential Experience</span>
+<h2 class="font-serif text-4xl sm:text-5xl text-white font-light mt-2">
+          Explore the Mansion: 7-Stage Walkthrough
+        </h2>
+<p class="text-neutral-400 text-sm font-light mt-3">
+          Experience the natural progression through Solaria as engineered by the architect, moving from private coastal approaches to open ocean horizons.
+        </p>
+</div>
+<div class="flex items-center space-x-3 overflow-x-auto pb-4 custom-scrollbar" id="stepSelectors">
+<button class="stage-nav-btn px-5 py-3 rounded-full text-xs font-semibold tracking-wider uppercase whitespace-nowrap bg-primary text-black transition-all" onclick="setStage(0)">01 • Mansion Exterior</button>
+<button class="stage-nav-btn px-5 py-3 rounded-full text-xs font-semibold tracking-wider uppercase whitespace-nowrap bg-neutral-800 text-neutral-300 hover:text-white border border-neutral-700 transition-all" onclick="setStage(1)">02 • Pivot Entrance</button>
+<button class="stage-nav-btn px-5 py-3 rounded-full text-xs font-semibold tracking-wider uppercase whitespace-nowrap bg-neutral-800 text-neutral-300 hover:text-white border border-neutral-700 transition-all" onclick="setStage(2)">03 • Ocean Salon</button>
+<button class="stage-nav-btn px-5 py-3 rounded-full text-xs font-semibold tracking-wider uppercase whitespace-nowrap bg-neutral-800 text-neutral-300 hover:text-white border border-neutral-700 transition-all" onclick="setStage(3)">04 • Art Gallery</button>
+<button class="stage-nav-btn px-5 py-3 rounded-full text-xs font-semibold tracking-wider uppercase whitespace-nowrap bg-neutral-800 text-neutral-300 hover:text-white border border-neutral-700 transition-all" onclick="setStage(4)">05 • Botanical Grounds</button>
+<button class="stage-nav-btn px-5 py-3 rounded-full text-xs font-semibold tracking-wider uppercase whitespace-nowrap bg-neutral-800 text-neutral-300 hover:text-white border border-neutral-700 transition-all" onclick="setStage(5)">06 • 75-FT Infinity Pool</button>
+<button class="stage-nav-btn px-5 py-3 rounded-full text-xs font-semibold tracking-wider uppercase whitespace-nowrap bg-neutral-800 text-neutral-300 hover:text-white border border-neutral-700 transition-all" onclick="setStage(6)">07 • Pacific Horizon Sunset</button>
+</div>
+<div class="bg-neutral-950 border border-neutral-800 rounded-3xl overflow-hidden shadow-2xl grid grid-cols-1 lg:grid-cols-12 min-h-[500px]">
+<div class="lg:col-span-7 relative h-72 lg:h-auto overflow-hidden">
+<img alt="Solaria Architectural Stage View" class="w-full h-full object-cover transition-opacity duration-500" id="stageImage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC55MCTnsYmSOTziM_R1grdfujedJckmTz2pygA5lmBeGfCgN0i4kNJQcqSZrqlDZZS0Mf_2k4qVjmHITlMHLmdHQ8mr5y5aqrBoE8sUeb_4xXTivL1k0Crbo3pwzpwkDpyDljjhlMM_eYJXdgHyegrEWf-wwtB6d2HMPv8ZtgzqDyUquIl4eF1luBltxkMfUzXgCUFB9S_I0PVfQnA8iLfb4aLXCNPXIxUfWLLnqM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
+<div class="absolute top-6 left-6 px-3 py-1.5 rounded-full bg-black/60 backdrop-blur-md text-[11px] font-mono tracking-widest text-primary border border-primary/30 uppercase" id="stageBadge">
+            Stage 01 of 07
+          </div>
+</div>
+<div class="lg:col-span-5 p-8 lg:p-12 flex flex-col justify-between space-y-6">
+<div class="space-y-4">
+<span class="text-xs uppercase tracking-[0.25em] text-primary font-medium" id="stageSub">Architectural Gateway</span>
+<h3 class="font-serif text-3xl sm:text-4xl text-white font-normal" id="stageTitle">Grand Mansion Exterior</h3>
+<p class="text-neutral-400 font-light leading-relaxed text-sm sm:text-base" id="stageDesc">
+              The iconic cliffside facade catching golden sunset rays. Built with Portuguese limestone and reinforced bronze frames designed to resist coastal ocean salt spray for generations.
+            </p>
+<div class="p-4 rounded-xl bg-neutral-900 border border-neutral-800/80 mt-4 space-y-1">
+<span class="text-[10px] uppercase tracking-widest text-primary font-semibold block">Architectural Note</span>
+<p class="text-xs text-neutral-300 font-mono" id="stageNote">270° Cantilevered Terraces • Custom Acoustic Glass</p>
+</div>
+</div>
+<div class="flex items-center justify-between pt-6 border-t border-neutral-800">
+<button class="inline-flex items-center space-x-2 text-xs uppercase tracking-widest text-neutral-400 hover:text-white transition-colors" onclick="prevStage()">
+<span class="material-symbols-outlined text-sm">west</span>
+<span>Previous Stage</span>
+</button>
+<button class="inline-flex items-center space-x-2 text-xs uppercase tracking-widest text-primary hover:text-white transition-colors" onclick="nextStage()">
+<span>Next Stage</span>
+<span class="material-symbols-outlined text-sm">east</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-28 px-6 bg-background-light dark:bg-background-dark" id="acquisition">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-5 space-y-8">
+<div>
+<span class="text-xs uppercase tracking-[0.3em] text-primary font-semibold">Private Representation</span>
+<h2 class="font-serif text-4xl sm:text-5xl text-neutral-900 dark:text-neutral-100 font-light mt-2 leading-tight">
+              Arrange a Confidential Showing
+            </h2>
+<p class="text-neutral-600 dark:text-neutral-400 text-sm font-light mt-4 leading-relaxed">
+              Showings for Solaria Estate are conducted exclusively for verified purchasers under strict confidentiality. Private helipad arrival coordination available upon request.
+            </p>
+</div>
+<div class="flex items-center space-x-4 p-5 rounded-2xl bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
+<div class="w-16 h-16 rounded-full overflow-hidden border-2 border-primary/40 shrink-0">
+<img alt="Elena Vance Principal Broker" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB29vB1_I1GIPmoAHFLoURwLcYpGTvLBCAeB8ntZEpvEsai4kv7cWKUSOYgtUJiDTTP2LgupfIv92tjzRzp8gEqILSoMYFqRi6xxfEbKq5UOOK_7gYpXdKz6bYn_6SRwjVuja6IoYkbYFL1IOQgEA-rH-mkS94GrSglFx8KoyhR5G51n-iurFPhuBTBzDad9Bt3WFuL3QMrQtGu_r7hrVZJJluBpR7-En5Q6GLKJGU"/>
+</div>
+<div>
+<p class="font-serif text-lg text-neutral-900 dark:text-white">Elena Vance &amp; Partners</p>
+<p class="text-xs uppercase tracking-widest text-primary font-medium">Ultra-Prime Oceanfront Division</p>
+<p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1 font-mono">+1 (831) 498-8200 • direct@solaria-estate.com</p>
+</div>
+</div>
+<div class="space-y-3">
+<div class="flex items-center space-x-3 text-sm text-neutral-600 dark:text-neutral-400">
+<span class="material-symbols-outlined text-primary text-base">verified</span>
+<span>Fully vetted title &amp; certified geologic foundation reports available</span>
+</div>
+<div class="flex items-center space-x-3 text-sm text-neutral-600 dark:text-neutral-400">
+<span class="material-symbols-outlined text-primary text-base">shield</span>
+<span>Standard Non-Disclosure Agreement (NDA) required prior to entry</span>
+</div>
+<div class="flex items-center space-x-3 text-sm text-neutral-600 dark:text-neutral-400">
+<span class="material-symbols-outlined text-primary text-base">flight_land</span>
+<span>Monterey Regional Executive Jet Terminal concierge transfer</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7">
+<div class="p-8 sm:p-10 rounded-3xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 shadow-xl space-y-6">
+<div class="border-b border-neutral-200 dark:border-neutral-800 pb-4">
+<h3 class="font-serif text-2xl text-neutral-900 dark:text-white">Request Private Appointment</h3>
+<p class="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Please provide your preferred scheduling window and representative details.</p>
+</div>
+<form class="space-y-5" onsubmit="handleFormSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-1.5 font-medium">Full Name</label>
+<input class="w-full px-4 py-3 rounded-xl bg-white dark:bg-neutral-950 border border-neutral-300 dark:border-neutral-800 text-neutral-900 dark:text-white text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="e.g. Jonathan Sterling" required="" type="text"/>
+</div>
+<div>
+<label class="block text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-1.5 font-medium">Confidential Email</label>
+<input class="w-full px-4 py-3 rounded-xl bg-white dark:bg-neutral-950 border border-neutral-300 dark:border-neutral-800 text-neutral-900 dark:text-white text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="client@advisory.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div>
+<label class="block text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-1.5 font-medium">Telephone / Signal</label>
+<input class="w-full px-4 py-3 rounded-xl bg-white dark:bg-neutral-950 border border-neutral-300 dark:border-neutral-800 text-neutral-900 dark:text-white text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="+1 (555) 000-0000" required="" type="tel"/>
+</div>
+<div>
+<label class="block text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-1.5 font-medium">Preferred Tour Date</label>
+<input class="w-full px-4 py-3 rounded-xl bg-white dark:bg-neutral-950 border border-neutral-300 dark:border-neutral-800 text-neutral-900 dark:text-white text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" required="" type="date"/>
+</div>
+</div>
+<div class="pt-2">
+<label class="block text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-2 font-medium">Representation Status</label>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+<label class="flex items-center space-x-2.5 p-3 rounded-xl border border-neutral-300 dark:border-neutral-800 bg-white dark:bg-neutral-950 cursor-pointer hover:border-primary">
+<input checked="" class="text-primary focus:ring-primary" name="buyerStatus" type="radio"/>
+<span class="text-xs text-neutral-700 dark:text-neutral-300">Principal Buyer</span>
+</label>
+<label class="flex items-center space-x-2.5 p-3 rounded-xl border border-neutral-300 dark:border-neutral-800 bg-white dark:bg-neutral-950 cursor-pointer hover:border-primary">
+<input class="text-primary focus:ring-primary" name="buyerStatus" type="radio"/>
+<span class="text-xs text-neutral-700 dark:text-neutral-300">Family Office</span>
+</label>
+<label class="flex items-center space-x-2.5 p-3 rounded-xl border border-neutral-300 dark:border-neutral-800 bg-white dark:bg-neutral-950 cursor-pointer hover:border-primary">
+<input class="text-primary focus:ring-primary" name="buyerStatus" type="radio"/>
+<span class="text-xs text-neutral-700 dark:text-neutral-300">Buyer's Broker</span>
+</label>
+</div>
+</div>
+<div>
+<label class="block text-xs uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-1.5 font-medium">Special Accommodations or Inquiries</label>
+<textarea class="w-full px-4 py-3 rounded-xl bg-white dark:bg-neutral-950 border border-neutral-300 dark:border-neutral-800 text-neutral-900 dark:text-white text-sm focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-colors" placeholder="Specify any security protocols, arrival by air, or private preview requests..." rows="3"></textarea>
+</div>
+<div class="pt-2">
+<button class="w-full py-4 rounded-xl bg-primary hover:bg-neutral-900 dark:hover:bg-white hover:text-white dark:hover:text-black text-black font-semibold text-xs uppercase tracking-[0.2em] transition-all duration-300 shadow-xl" type="submit">
+                  Submit Confidential Booking Request
+                </button>
+</div>
+<p class="hidden text-center text-xs font-mono text-primary pt-2" id="formSuccess">
+                Showing request received. The listing partner will contact you directly within 4 hours.
+              </p>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="border-t border-neutral-200 dark:border-neutral-800 bg-neutral-100 dark:bg-black py-16 px-6">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="flex flex-col items-center md:items-start">
+<span class="font-serif text-2xl tracking-[0.25em] text-neutral-900 dark:text-white uppercase font-light">Solaria</span>
+<span class="text-[10px] tracking-[0.35em] text-primary uppercase font-medium mt-1">Monterey Horizon Estate</span>
+<span class="text-xs text-neutral-500 dark:text-neutral-500 mt-3 font-light">© 2025 Solaria Oceanfront Estate. All Rights Reserved. Confidential Offering.</span>
+</div>
+<div class="flex items-center space-x-6 text-xs uppercase tracking-widest text-neutral-500 dark:text-neutral-400">
+<a class="hover:text-primary transition-colors" href="#about">Philosophy</a>
+<a class="hover:text-primary transition-colors" href="#highlights">Features</a>
+<a class="hover:text-primary transition-colors" href="#gallery">Anthology</a>
+<a class="hover:text-primary transition-colors" href="#walkthrough">Walkthrough</a>
+<a class="hover:text-primary transition-colors" href="#acquisition">Acquisition</a>
+</div>
+</div>
+</footer>
+<div class="fixed inset-0 z-50 bg-black/95 backdrop-blur-xl hidden flex-col justify-between p-6 opacity-0 transition-opacity duration-300" id="lightboxModal" onclick="closeLightboxOnBackdrop(event)">
+<div class="flex items-center justify-between text-white max-w-7xl mx-auto w-full pt-2">
+<span class="text-xs uppercase tracking-[0.25em] text-primary font-mono">Solaria High-Resolution Gallery</span>
+<button class="w-11 h-11 rounded-full bg-white/10 hover:bg-primary hover:text-black flex items-center justify-center transition-colors" onclick="closeLightbox()">
+<span class="material-symbols-outlined">close</span>
+</button>
+</div>
+<div class="flex-1 flex items-center justify-center py-4 max-w-6xl mx-auto w-full">
+<img alt="High-Resolution Architectural Space" class="max-h-[768px] max-w-full object-contain rounded-xl shadow-2xl transition-all duration-300" id="lightboxImg" src=""/>
+</div>
+<div class="max-w-4xl mx-auto w-full pb-4 text-center">
+<h4 class="font-serif text-2xl sm:text-3xl text-white font-light" id="lightboxTitle"></h4>
+<p class="text-sm text-neutral-300 font-light mt-1" id="lightboxDesc"></p>
+</div>
+</div>
+<script>
+    // 1. Dark Mode Management
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    const html = document.documentElement;
+    // Check system preference or default dark
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      html.classList.add('dark');
+      themeIcon.textContent = 'light_mode';
+    } else {
+      html.classList.add('dark'); // Default luxury dark preset
+      themeIcon.textContent = 'light_mode';
+    }
+    themeToggle.addEventListener('click', () => {
+      if (html.classList.contains('dark')) {
+        html.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+        themeIcon.textContent = 'dark_mode';
+      } else {
+        html.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+        themeIcon.textContent = 'light_mode';
+      }
+    });
+    // 2. Lightbox Logic
+    const lightboxModal = document.getElementById('lightboxModal');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxTitle = document.getElementById('lightboxTitle');
+    const lightboxDesc = document.getElementById('lightboxDesc');
+    function openLightbox(url, title, desc) {
+      lightboxImg.src = url;
+      lightboxTitle.textContent = title;
+      lightboxDesc.textContent = desc;
+      lightboxModal.classList.remove('hidden');
+      setTimeout(() => {
+        lightboxModal.classList.remove('opacity-0');
+      }, 20);
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      lightboxModal.classList.add('opacity-0');
+      setTimeout(() => {
+        lightboxModal.classList.add('hidden');
+        document.body.style.overflow = 'auto';
+      }, 300);
+    }
+    function closeLightboxOnBackdrop(e) {
+      if (e.target === lightboxModal) {
+        closeLightbox();
+      }
+    }
+    // 3. Gallery Filtering Logic
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Active button styling
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-black', 'border-primary');
+          b.classList.add('border-neutral-300', 'dark:border-neutral-700', 'text-neutral-600', 'dark:text-neutral-300');
+        });
+        btn.classList.add('bg-primary', 'text-black', 'border-primary');
+        btn.classList.remove('border-neutral-300', 'dark:border-neutral-700', 'text-neutral-600', 'dark:text-neutral-300');
+        const filter = btn.getAttribute('data-filter');
+        galleryItems.forEach(item => {
+          if (filter === 'all' || item.classList.contains(filter)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+    // 4. Step-by-Step Architectural Walkthrough Sequence Data & Engine
+    const walkthroughStages = [
+      {
+        badge: 'Stage 01 of 07',
+        sub: 'Architectural Gateway',
+        title: 'Grand Mansion Exterior',
+        desc: 'The iconic cliffside facade catching golden sunset rays. Built with Portuguese limestone and reinforced bronze frames designed to resist coastal ocean salt spray for generations.',
+        note: '270° Cantilevered Terraces • Custom Acoustic Glass',
+        img: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=85'
+      },
+      {
+        badge: 'Stage 02 of 07',
+        sub: 'The Arrival Sequence',
+        title: 'Bespoke Pivot Entrance',
+        desc: 'A monumental 12-foot blackened steel and American walnut pivot door welcomes residents into a luminous skylit vestibule with running architectural water features.',
+        note: 'Biometric Access Control • Chiseled Basalt Water Basin',
+        img: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85'
+      },
+      {
+        badge: 'Stage 03 of 07',
+        sub: 'Central Pavilion',
+        title: 'Double-Height Living Salon',
+        desc: 'Soaring 24-foot ceilings framed by motorized pocketing glass panels that vanish into the wall cavity, dissolving all boundaries between the interior salon and the ocean air.',
+        note: 'Acoustic Cedar Battens • Radiant Heated Travertine Slabs',
+        img: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85'
+      },
+      {
+        badge: 'Stage 04 of 07',
+        sub: 'Curated Promenade',
+        title: 'The Art Gallery & Corridor',
+        desc: 'Wide travertine walkways featuring museum-grade recessed track lighting, climatized sculpture niches, and framed sightlines capturing the ocean horizon.',
+        note: 'Museum-Grade UV Protected Glazing • Climatized Atmosphere',
+        img: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=85'
+      },
+      {
+        badge: 'Stage 05 of 07',
+        sub: 'Private Flora Sanctuaries',
+        title: 'Terraced Botanical Grounds',
+        desc: 'Tiered garden pathways planted with sculptured Japanese maples, specimen olive groves, and coastal succulents descending naturally toward the private bluffs.',
+        note: 'Automated Micro-Drip Irrigation • Coastal Salt Hardy Specimen',
+        img: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=85'
+      },
+      {
+        badge: 'Stage 06 of 07',
+        sub: 'Aquatic Architecture',
+        title: 'The 75-Foot Infinity Pool',
+        desc: 'A heated saltwater architectural centerpiece with an invisible knife-edge overflow that seamlessly merges into the Pacific Ocean. Features sunken fire lounges and submerged daybeds.',
+        note: 'Geothermal Solar Heating • Concealed Hydrotherapy Jets',
+        img: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1600&q=85'
+      },
+      {
+        badge: 'Stage 07 of 07',
+        sub: 'Evening Twilight',
+        title: 'Pacific Horizon Sunset',
+        desc: 'As twilight falls, automated architectural illumination gracefully transforms the estate into a glowing cliffside beacon hovering serenely over the rolling Pacific tides.',
+        note: 'Lutron Homeworks Sunset Automation • 2700K Warm Dimming',
+        img: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1600&q=85'
+      }
+    ];
+    let currentStageIndex = 0;
+    const stageImgEl = document.getElementById('stageImage');
+    const stageBadgeEl = document.getElementById('stageBadge');
+    const stageSubEl = document.getElementById('stageSub');
+    const stageTitleEl = document.getElementById('stageTitle');
+    const stageDescEl = document.getElementById('stageDesc');
+    const stageNoteEl = document.getElementById('stageNote');
+    const stageNavBtns = document.querySelectorAll('.stage-nav-btn');
+    function setStage(index) {
+      currentStageIndex = index;
+      const data = walkthroughStages[index];
+      // Update Active Navigation Button Styling
+      stageNavBtns.forEach((btn, i) => {
+        if (i === index) {
+          btn.classList.add('bg-primary', 'text-black');
+          btn.classList.remove('bg-neutral-800', 'text-neutral-300', 'border-neutral-700');
+        } else {
+          btn.classList.remove('bg-primary', 'text-black');
+          btn.classList.add('bg-neutral-800', 'text-neutral-300', 'border', 'border-neutral-700');
+        }
+      });
+      // Smooth Fade Transition
+      stageImgEl.style.opacity = '0';
+      setTimeout(() => {
+        stageImgEl.src = data.img;
+        stageBadgeEl.textContent = data.badge;
+        stageSubEl.textContent = data.sub;
+        stageTitleEl.textContent = data.title;
+        stageDescEl.textContent = data.desc;
+        stageNoteEl.textContent = data.note;
+        stageImgEl.style.opacity = '1';
+      }, 200);
+    }
+    function nextStage() {
+      const next = (currentStageIndex + 1) % walkthroughStages.length;
+      setStage(next);
+    }
+    function prevStage() {
+      const prev = (currentStageIndex - 1 + walkthroughStages.length) % walkthroughStages.length;
+      setStage(prev);
+    }
+    // 5. Booking Form Feedback
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const successMsg = document.getElementById('formSuccess');
+      successMsg.classList.remove('hidden');
+      setTimeout(() => {
+        successMsg.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 50);
+    }
+  </script>
+
+</body></html>
